@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    
+    font-family: 'Rajdhani', sans-serif;
+    background-color: rgb(245, 245, 245);
+    max-width: 100%;
+    overflow-x: hidden;
+   
+}
+
+main{
+    margin-left: 12%;
+}
+
+
+
+
+
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+    
+
+    
+}
+nav a{
+
+    color: #444;
+    text-transform: uppercase;
+
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 170px;
+    padding-top: 30.5px;
+    position: relative;
+}
+
+
+
+nav{
+    float: right;
+}
+.navbar{
+width: 75%;
+margin: 0 auto;
+
+}
+header{
+    background-color: rgb(245, 245, 245);
+    height: 5rem;
+    
+
+}
+
+.logo{
+    height: auto;
+    width: 150px
+    
+}
+nav a:hover{
+    color: #444
+}
+
+nav a::before {  
+    content: '';
+    display: block;
+    height: 2.5px;
+    background-color: #444;
+    
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    
+    transition: all ease-in-out 150ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
