@@ -89,11 +89,15 @@ top: 0;
     background-color:  #EFEEEA;
     border-top: #692340 3px solid;
     width: 100%;
+    position: absolute;
+    
     
     
 }
 .bottom h3{
     padding-left: 230px;
+    
+    
     
 }
 
@@ -105,7 +109,7 @@ top: 0;
 
 #bakgrund{
     min-height: 710px;
-    background: url(/img/cliff-5547648_1920.jpg) no-repeat;
+    background: url(/cliff-5547648_1920.jpg) no-repeat;
     text-align: center;
     padding-top: 20;
     
