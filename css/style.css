@@ -59,7 +59,7 @@ position: fixed;
 display: block;
 background-color:  #EFEEEA;
 border-bottom: #692340 4px solid;
-
+top: 0;
 
 
 }
@@ -67,12 +67,7 @@ border-bottom: #692340 4px solid;
 
 
 
-header{
-    
-    height: 5rem;
-    
 
-}
 
 .logo{
    padding-bottom: 0;
@@ -97,14 +92,17 @@ header{
     width: 100%;
 }
 #bakgrund{
-    min-height: 650px;
+    min-height: 710px;
     background: url(/img/cliff-5547648_1920.jpg) no-repeat;
     text-align: center;
     padding-top: 20;
     
 }
-#showcase h1{
-    margin-top: 325px;
+
+#bakgrund h1{
+    padding-top: 240px;
+    padding-bottom: 15px;
+    font-size: 45px;
 }
     
 
