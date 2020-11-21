@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    
+
     font-family: 'Rajdhani', sans-serif;
     background-color: rgb(245, 245, 245);
     max-width: 100%;
@@ -9,12 +9,13 @@ body{
 }
 
 main{
-    margin: 0 240px;
+    margin: 0 230px;
     
 }
 
-
-
+nav{
+    padding-left: 230;
+}
 
 
 
@@ -61,7 +62,6 @@ background-color:  #EFEEEA;
 border-bottom: #692340 4px solid;
 top: 0;
 
-
 }
 
 
@@ -88,9 +88,21 @@ top: 0;
     display: inline-block;
     background-color:  #EFEEEA;
     border-top: #692340 3px solid;
-    margin-top: 0;
     width: 100%;
+    
+    
 }
+.bottom h3{
+    padding-left: 230px;
+    
+}
+
+#newsletter .sub{
+    float: right;
+    margin-bottom:50px;
+    padding-right: 230px;
+}
+
 #bakgrund{
     min-height: 710px;
     background: url(/img/cliff-5547648_1920.jpg) no-repeat;
@@ -103,8 +115,13 @@ top: 0;
     padding-top: 240px;
     padding-bottom: 15px;
     font-size: 45px;
+    color: #efeeeac3;
 }
-    
+#bakgrund p{
+    font-size: 20px;
+    color: #efeeeac3;
+       
+}   
 
 header .Highlight{
     color: #692340;
@@ -127,7 +144,7 @@ nav a::before {
     content: '';
     display: block;
     height: 2.5px;
-    background-color: #444;
+    background-color: #692340;
     
     position: absolute;
     bottom: 0;
